@@ -1,0 +1,63 @@
+/*Todos los import */
+button {
+  background-color: #999;
+  border: none;
+  color: #666;
+  font-family: "roboto";
+  font-size: 30px;
+  padding: 20px 70px;
+  text-align: center;
+  text-transform: uppercase;
+}
+button:hover {
+  border: 2px solid #666;
+  color: white;
+  cursor: pointer;
+  transition: 2s;
+}
+
+header {
+  background-image: url(../../img/my-face.png);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  left: 0px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 300px;
+  font-size: 55px;
+}
+
+img {
+  left: 1050px;
+  position: relative;
+  top: -80px;
+}
+
+.header-content-btn {
+  display: inline-block;
+  left: 370px;
+  margin: 0 auto;
+  position: relative;
+  top: 400px;
+  width: 1100px;
+}
+
+body {
+  background-color: #999;
+  font-family: "roboto";
+  letter-spacing: 15px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url(../../fonts/Roboto-Regular.ttf);
+}
+
+/*# sourceMappingURL=main.css.map */
