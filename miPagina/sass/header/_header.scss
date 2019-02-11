@@ -1,6 +1,6 @@
 //Header styles
 
-button{
+a{
     background-color: rgba(153, 153, 153, 0);
     border: 2px solid rgba(102, 102, 102, 0);
     color: #666;
@@ -8,6 +8,7 @@ button{
     font-size: 30px;
     padding: 20px 40px; 
     text-align: center;
+    text-decoration: none;
     text-transform: uppercase;
     transition: 1s;
     &:hover{ 
@@ -25,7 +26,7 @@ header{
     background-image: url(../../img/my-face.png);
     background-position-x: 1000px;
     background-repeat: no-repeat;
-    padding-bottom: 1000px;
+    padding-bottom: 900px;
 }
 
 h1{
@@ -43,6 +44,6 @@ h1{
     display: inline-block;
     position: relative;
     text-align: center;
-    top: 400px;
+    top: 450px;
     width: 100%;
 }
