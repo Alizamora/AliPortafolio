@@ -18,14 +18,14 @@ button{
 }
 
 header{
-    background-color: #999;
+    background-color: $gray;
 }
 
 .header-img{
     background-image: url(../../img/my-face.png);
-    background-position-x: 732px;
+    background-position-x: 1000px;
     background-repeat: no-repeat;
-    padding-bottom: 800px;
+    padding-bottom: 1000px;
 }
 
 h1{

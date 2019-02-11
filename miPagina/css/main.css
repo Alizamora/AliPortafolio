@@ -1,4 +1,15 @@
 /*Todos los import */
+@font-face {
+  font-family: "roboto";
+  src: url(../../fonts/Roboto-Regular.ttf);
+}
+body {
+  font-family: "roboto";
+  letter-spacing: 15px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
 button {
   background-color: rgba(153, 153, 153, 0);
   border: 2px solid rgba(102, 102, 102, 0);
@@ -22,9 +33,9 @@ header {
 
 .header-img {
   background-image: url(../../img/my-face.png);
-  background-position-x: 732px;
+  background-position-x: 1000px;
   background-repeat: no-repeat;
-  padding-bottom: 800px;
+  padding-bottom: 1000px;
 }
 
 h1 {
@@ -46,16 +57,16 @@ h1 {
   width: 100%;
 }
 
-body {
-  font-family: "roboto";
-  letter-spacing: 15px;
+.photo-profile {
+  background-image: url(../../img/profile.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 350px;
   margin: 0 auto;
-  text-transform: uppercase;
-}
-
-@font-face {
-  font-family: "roboto";
-  src: url(../../fonts/Roboto-Regular.ttf);
+  position: relative;
+  top: -150px;
+  width: 350px;
 }
 
 /*# sourceMappingURL=main.css.map */
