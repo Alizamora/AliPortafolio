@@ -1,24 +1,31 @@
 //Header styles
 
 button{
-    background-color: #999;
-    border:none;
+    background-color: rgba(153, 153, 153, 0);
+    border: 2px solid rgba(102, 102, 102, 0);
     color: #666;
     font-family: 'roboto';
     font-size: 30px;
-    padding: 20px 70px;
+    padding: 20px 40px; 
     text-align: center;
     text-transform: uppercase;
-    &:hover{
-        border: 2px solid #666;
+    transition: 1s;
+    &:hover{ 
+        border: 2px solid rgba(102, 102, 102, 1);
         color: white;
         cursor: pointer;
-        transition: 1s;
     }
 }
 
 header{
     background-color: #999;
+}
+
+.header-img{
+    background-image: url(../../img/my-face.png);
+    background-position-x: 732px;
+    background-repeat: no-repeat;
+    padding-bottom: 800px;
 }
 
 h1{
@@ -32,17 +39,10 @@ h1{
     font-size: 55px;
 }
 
-img{
-    left: 1050px;
-    position: relative;
-    top: -80px;
-}
-
 .header-content-btn{
     display: inline-block;
-    left: 370px;
-    margin: 0 auto;
     position: relative;
+    text-align: center;
     top: 400px;
-    width: 1100px;
+    width: 100%;
 }
