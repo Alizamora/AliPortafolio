@@ -50,4 +50,4 @@ function request(data) {
 
 }
 
-fetchJSON('https://api.github.com/users/Alizamora/repos', request);
+//fetchJSON('https://api.github.com/users/Alizamora/repos', request);
