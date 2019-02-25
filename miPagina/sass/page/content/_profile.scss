@@ -1,0 +1,36 @@
+
+.title-about-me{
+    @media (max-width: 320px){
+        
+    }
+    font-size: 100px;
+    color: #666 ;
+    
+
+    span:nth-child(1)  {
+        left: 10%;
+        position: relative;
+        top: -490px;
+    }
+    span:nth-child(2){
+        @media (max-width: 995px) {
+            left: 10%;
+        }
+        left: 50%;
+        position: relative;
+        top: -490px;
+    }
+}
+
+.photo-profile{
+    background-image: url('../img/profile.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 350px;
+    margin: 0 auto;
+    position: relative;
+    top: -150px;
+    width: 350px;
+}
+

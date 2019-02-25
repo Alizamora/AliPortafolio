@@ -1,0 +1,115 @@
+/*Todos los import */
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+h1 {
+  color: white;
+  font-size: 3vw;
+  left: 0px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 300px;
+}
+@media (max-width: 320px) {
+  h1 {
+    font-size: 5vw;
+  }
+}
+
+.header-content-btn {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  top: 450px;
+  width: 100%;
+}
+
+.menu-btn {
+  background-color: rgba(153, 153, 153, 0);
+  border: 2px solid rgba(102, 102, 102, 0);
+  color: #666;
+  font-family: "roboto";
+  font-size: 30px;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 1s;
+}
+.menu-btn:hover {
+  border: 2px solid #666666;
+  color: white;
+  cursor: pointer;
+}
+
+body {
+  font-family: "roboto";
+  letter-spacing: 15px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+@media (max-width: 320px) {
+  body {
+    letter-spacing: 5px;
+  }
+}
+
+header {
+  background-color: #999;
+}
+
+.about-me-background {
+  padding-bottom: 200px;
+  width: 100%;
+  background-color: #999;
+}
+
+.header-img {
+  background-image: url(../img/my-face.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 45%;
+  padding-bottom: 900px;
+}
+@media (max-width: 1080px) {
+  .header-img {
+    background-position: top;
+    background-size: 100%;
+  }
+}
+
+.title-about-me {
+  font-size: 100px;
+  color: #666;
+}
+.title-about-me span:nth-child(1) {
+  left: 10%;
+  position: relative;
+  top: -490px;
+}
+.title-about-me span:nth-child(2) {
+  left: 50%;
+  position: relative;
+  top: -490px;
+}
+@media (max-width: 995px) {
+  .title-about-me span:nth-child(2) {
+    left: 10%;
+  }
+}
+
+.photo-profile {
+  background-image: url("../img/profile.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 350px;
+  margin: 0 auto;
+  position: relative;
+  top: -150px;
+  width: 350px;
+}
+
+/*# sourceMappingURL=main.css.map */
