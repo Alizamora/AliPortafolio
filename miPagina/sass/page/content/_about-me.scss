@@ -1,16 +1,78 @@
+/*About-me styles*/
+
+@keyframes graphic-color{
+  from{
+    opacity: 0;
+    width: 0;
+  }
+}
+
+li{
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+  width: 50%;
+}
+
+h4{
+  padding-bottom: 13px;
+}
+
 .code {
 	display: inline-block;
-	top: 250%;
+	top: 200%;
 	position: absolute;
-	left: 52%;
+  left: 52%;
 }
 
 .desing {
 	display: inline-block;
-	left: 33%;
+	left: 18%;
 	position: absolute;
-	top: 250%;
-	text-align: right;
+	top: 200%;
+  text-align: right;
+}
+
+.graphic-background{
+  background: #888;
+  border-radius: 25px;
+  display: inline-block;
+  height: 15px;
+  margin-right: 30px;
+  position: relative;
+  width: 250px;
+  &:before{
+    content: '+';
+    left: -10px;
+    position: absolute;
+  }
+  &:after{
+    content: '-';
+    position: absolute;
+    right: -10px;
+  }
+}
+
+.graphic-color{
+  background: #000;
+  border-radius: 25px;
+  display: inline-block;
+  
+  height: 100%;
+  &.graphic-color{
+    animation: graphic-color 5s  ease forwards;
+  }
+}
+
+.left{
+
+}
+
+.right{
+  float: right;
+}
+
+.skill{
+  width: 25%;
 }
 
 .title-about-me {
