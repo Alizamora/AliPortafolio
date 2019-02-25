@@ -86,7 +86,7 @@ h4 {
 
 .code {
   display: inline-block;
-  top: 200%;
+  top: 1420px;
   position: absolute;
   left: 52%; }
 
@@ -94,7 +94,7 @@ h4 {
   display: inline-block;
   left: 18%;
   position: absolute;
-  top: 200%;
+  top: 1420px;
   text-align: right; }
 
 .graphic-background {
@@ -168,5 +168,8 @@ h4 {
 #contact {
   background-color: gray;
   text-align: center; }
+
+#contact p {
+  margin: 0; }
 
 /*# sourceMappingURL=main.css.map */
