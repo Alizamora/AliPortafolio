@@ -1,8 +1,12 @@
 /*Todos los import */
 
-@import 'variables';
-@import 'mixins/mixins';
+@import 'helpers/variables';
+@import 'helpers/mixins';
 @import 'fonts/fonts';
-@import 'general/general.scss';
-@import 'header/header';
-@import 'content/content';
+@import 'patrones/titles/titles';
+@import 'patrones/button/button';
+@import 'components/modal';
+@import 'general/general';
+@import 'page/header/header';
+@import 'page/content/content';
+//@import 'page/footer/';

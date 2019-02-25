@@ -1,0 +1,24 @@
+//Header styles
+
+header{
+    background-color: $gray;
+}
+
+.about-me-background{
+    padding-bottom: 200px;
+    width: 100%;
+    background-color: $gray;
+}
+
+.header-img{
+    @media (max-width: 1080px){
+        background-position: top;
+        background-size: 100%;
+    }
+    background-image: url(../img/my-face.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    padding-bottom: 900px;
+}
+

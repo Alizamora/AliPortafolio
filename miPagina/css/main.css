@@ -1,16 +1,32 @@
 /*Todos los import */
 @font-face {
   font-family: "roboto";
-  src: url(../../fonts/Roboto-Regular.ttf);
+  src: url(../fonts/Roboto-Regular.ttf);
 }
-body {
-  font-family: "roboto";
-  letter-spacing: 15px;
-  margin: 0 auto;
-  text-transform: uppercase;
+h1 {
+  color: white;
+  font-size: 3vw;
+  left: 0px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 300px;
+}
+@media (max-width: 320px) {
+  h1 {
+    font-size: 5vw;
+  }
 }
 
-a {
+.header-content-btn {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  top: 450px;
+  width: 100%;
+}
+
+.menu-btn {
   background-color: rgba(153, 153, 153, 0);
   border: 2px solid rgba(102, 102, 102, 0);
   color: #666;
@@ -22,59 +38,70 @@ a {
   text-transform: uppercase;
   transition: 1s;
 }
-a:hover {
+.menu-btn:hover {
   border: 2px solid #666666;
   color: white;
   cursor: pointer;
+}
+
+body {
+  font-family: "roboto";
+  letter-spacing: 15px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+@media (max-width: 320px) {
+  body {
+    letter-spacing: 5px;
+  }
 }
 
 header {
   background-color: #999;
 }
 
+.about-me-background {
+  padding-bottom: 200px;
+  width: 100%;
+  background-color: #999;
+}
+
 .header-img {
-  background-image: url(../../img/my-face.png);
-  background-position-x: 1000px;
+  background-image: url(../img/my-face.png);
+  background-position: right;
   background-repeat: no-repeat;
+  background-size: 45%;
   padding-bottom: 900px;
 }
-
-h1 {
-  color: white;
-  font-size: 40px;
-  left: 0px;
-  margin: 0;
-  position: relative;
-  text-align: center;
-  top: 300px;
-  font-size: 55px;
+@media (max-width: 1080px) {
+  .header-img {
+    background-position: top;
+    background-size: 100%;
+  }
 }
 
-.header-content-btn {
-  display: inline-block;
-  position: relative;
-  text-align: center;
-  top: 450px;
-  width: 100%;
-}
-
-.about-me {
+.title-about-me {
   font-size: 100px;
   color: #666;
 }
-.about-me span:nth-child(1) {
-  left: 125px;
+.title-about-me span:nth-child(1) {
+  left: 10%;
   position: relative;
   top: -490px;
 }
-.about-me span:nth-child(2) {
-  left: 730px;
+.title-about-me span:nth-child(2) {
+  left: 50%;
   position: relative;
   top: -490px;
+}
+@media (max-width: 995px) {
+  .title-about-me span:nth-child(2) {
+    left: 10%;
+  }
 }
 
 .photo-profile {
-  background-image: url("../../img/profile.jpg");
+  background-image: url("../img/profile.jpg");
   background-position: center;
   background-size: cover;
   border-radius: 50%;
