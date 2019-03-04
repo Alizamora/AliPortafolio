@@ -1,12 +1,20 @@
 /*Footer Styles*/
 
 #contact{
-    background-color: gray;
-    text-align: center;
+  background-color: black;
+  text-align: center;
 }
 
 #contact{
-    p{
-        margin: 0;
-    }
+
+	h2{
+		color: white;
+		padding: 50px;
+	}
+
+  p{
+    color: white;
+		margin: 0;
+		padding: 50px;
+  }
 }

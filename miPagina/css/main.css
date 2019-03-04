@@ -224,12 +224,18 @@ h4 {
 
 /*Footer Styles*/
 #contact {
-  background-color: gray;
+  background-color: black;
   text-align: center;
 }
 
+#contact h2 {
+  color: white;
+  padding: 50px;
+}
 #contact p {
+  color: white;
   margin: 0;
+  padding: 50px;
 }
 
 /*# sourceMappingURL=main.css.map */
