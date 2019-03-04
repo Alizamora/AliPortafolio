@@ -37,7 +37,7 @@ function request(data) {
 		lastProjectsUl.appendChild(li);
 		li.appendChild(btn);
 		btn.innerText = data[i].name;
-
+		
 		btn.addEventListener('click', ()=>{
 			modal.style.visibility = 'visible';
 			modalTitle.innerText = data[i].name;
@@ -50,4 +50,4 @@ function request(data) {
 
 }
 
-fetchJSON('https://api.github.com/users/Alizamora/repos', request);
+//fetchJSON('https://api.github.com/users/Alizamora/repos', request);
