@@ -1,10 +1,42 @@
 /*Hobbies Styles*/
 
-.hobbies{
-    
-    background-image: url(../img/img2.0.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-bottom: 28%;
+.hobbies {
+  background-blend-mode: soft-light;
+  background-color: rgba(255, 255, 255, 0.616);
+  background-image: url(../img/img2.0.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  margin: 0 auto;
+  padding-bottom: 28%;
+  position: relative;
+  width: 1250px;
+}
 
+img {
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  opacity: 0;
+}
+
+.photo {
+  animation: mostrar 10s 0s forwards;
+  transition: 2s;
+}
+
+.soccer {
+  animation: mostrar 10s 7s forwards;
+}
+
+.travel {
+  animation: mostrar 10s 14s forwards;
+}
+
+.work1 {
+  animation: mostrar 10s 21s forwards;
+}
+
+.work2 {
+  animation: mostrar 10s 28s forwards;
 }

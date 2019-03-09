@@ -1,91 +1,91 @@
 /*About-me styles*/
 
-@keyframes graphic-color{
-  from{
+@keyframes graphic-color {
+  from {
     opacity: 0;
     width: 0;
   }
 }
 
-li{
+li {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
   letter-spacing: 5px;
   padding-bottom: 10px;
 }
 
-h4{
+h4 {
   padding-bottom: 13px;
 }
 
 .code {
-	top: 1450px;
-	position: absolute;
+  top: 1450px;
+  position: absolute;
   left: 52%;
   width: 25%;
 }
 
 .desing {
-	left: 23%;
-	position: absolute;
+  left: 23%;
+  position: absolute;
   top: 1450px;
   text-align: right;
   width: 25%;
 }
 
-.graphic-background{
+.graphic-background {
   background: #888;
   border-radius: 25px;
   display: inline-block;
   height: 15px;
   position: relative;
   width: 250px;
-  &:before{
-    content: '+';
+  &:before {
+    content: "+";
     left: -10px;
     position: absolute;
   }
-  &:after{
-    content: '-';
+  &:after {
+    content: "-";
     position: absolute;
     right: -10px;
   }
 }
 
-.graphic-color{
+.graphic-color {
   background: #000;
   border-radius: 25px;
   display: inline-block;
-  
+
   height: 100%;
-  &.graphic-color{
-    animation: graphic-color 5s  ease forwards;
+  &.graphic-color {
+    animation: graphic-color 5s ease forwards;
   }
 }
 
-.graphic-left{
+.graphic-left {
   display: block;
   grid-area: 1 / 1;
   width: 100%;
 }
 
-.graphic-right{
+.graphic-right {
   display: block;
   grid-area: 1 / 2;
-  width: 100%,
+  width: 100%;
 }
 
-.right{
+.right {
   float: right;
 }
 
-.skill-left{
+.skill-left {
   display: block;
   grid-area: 1 / 1;
   width: 100%;
 }
 
-.skill-right{
+.skill-right {
   display: block;
   grid-area: 1 / 2;
   width: 100%;

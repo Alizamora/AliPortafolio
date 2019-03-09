@@ -1,0 +1,17 @@
+/*Animaciones*/
+
+@keyframes mostrar {
+  0%,
+  10% {
+    opacity: 0;
+  }
+  10%,
+  95% {
+    opacity: 1;
+  }
+  95%,
+  100% {
+    opacity: 0;
+  }
+}
+
