@@ -16,11 +16,10 @@
 }
 
 .hobbies__img {
+  animation: mostrar 45s infinite;
   background-image: url(../img/svg/photo.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  animation: mostrar 45s infinite;
-  -webkit-animation: mostrar 45s infinite;
   grid-column: 1;
   grid-row: 2;
 }

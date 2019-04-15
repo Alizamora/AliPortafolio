@@ -66,8 +66,8 @@ h1 {
 }
 
 #modal {
-  grid-column: 3/5;
   font-size: 16px;
+  grid-column: 3/5;
 }
 
 body {
@@ -82,12 +82,12 @@ body {
   }
 }
 
-ul {
-  padding: 0;
-}
-
 li {
   list-style: none;
+}
+
+ul {
+  padding: 0;
 }
 
 header {
@@ -95,9 +95,9 @@ header {
 }
 
 .about-me-background {
+  background-color: #999;
   padding-bottom: 200px;
   width: 100%;
-  background-color: #999;
 }
 
 .header-img {
@@ -254,11 +254,10 @@ h4 {
 }
 
 .hobbies__img {
+  animation: mostrar 45s infinite;
   background-image: url(../img/svg/photo.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  animation: mostrar 45s infinite;
-  -webkit-animation: mostrar 45s infinite;
   grid-column: 1;
   grid-row: 2;
 }
@@ -308,8 +307,8 @@ h4 {
 }
 
 .github-title {
-  grid-row: 4;
   grid-column: 2/6;
+  grid-row: 4;
   justify-self: center;
 }
 
