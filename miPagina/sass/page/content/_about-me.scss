@@ -94,22 +94,22 @@ h4 {
 .title-about-me {
   @media (max-width: 320px) {
   }
-  font-size: 10vw;
+  font-size: 8vw;
   color: #666;
   margin: 0;
 
   span:nth-child(1) {
-    left: 10%;
+    left: 5%;
     position: relative;
-    top: -60vh;
+    top: -46vh;
   }
   span:nth-child(2) {
     @media (max-width: 995px) {
-      left: 10vw;
+      left: 8vw;
     }
     left: 35vw;
     position: relative;
-    top: -60vh;
+    top: -46vh;
   }
 }
 
