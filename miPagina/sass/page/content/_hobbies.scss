@@ -3,18 +3,19 @@
 .hobbies {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 20% 1fr;
+  grid-template-rows: 8% 1fr;
   background-blend-mode: soft-light;
   background-color: rgba(255, 255, 255, 0.616);
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
   margin-bottom: 200px;
+  margin-top: 100px;
   position: relative;
   height: 640px;
 }
 
-.hobbie__img {
+.hobbies__img {
   background-image: url(../img/svg/photo.svg);
   background-size: cover;
   background-repeat: no-repeat;
