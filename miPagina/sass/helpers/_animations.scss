@@ -1,17 +1,22 @@
 /*Animaciones*/
 
 @keyframes mostrar {
-  0%,
-  10% {
-    opacity: 0;
+  0% {
+    background-image: url(../img/svg/photo.svg);
   }
-  10%,
-  95% {
-    opacity: 1;
+  20% {
+    background-image: url(../img/svg/futbol.svg);
   }
-  95%,
+  40% {
+    background-image: url(../img/svg/viajar.svg);
+  }
+  60% {
+    background-image: url(../img/svg/work.svg);
+  }
+  80% {
+    background-image: url(../img/svg/work1.svg);
+  }
   100% {
-    opacity: 0;
+    background-image: url(../img/svg/photo.svg);
   }
 }
-

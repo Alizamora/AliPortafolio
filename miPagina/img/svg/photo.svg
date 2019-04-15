@@ -3,14 +3,11 @@
     path{
       stroke-dasharray: 6000;
       stroke-dashoffset: 0;
-      animation: drawAli 20s infinite; /*Puede ser forwards*/
+      animation: drawAli 16s infinite; /*Puede ser forwards*/
     }
     @keyframes drawAli {
-      from {
+      50% {
         stroke-dashoffset: 6000;
-      }
-      to {
-        stroke-dashoffset: 0;
       }
     }
   </style>
