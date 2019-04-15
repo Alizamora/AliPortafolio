@@ -1,0 +1,19 @@
+// Global Styles
+
+body{
+    @media (max-width: 320px){
+        letter-spacing: 5px;
+    }
+    font-family: 'roboto';
+    letter-spacing: 15px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}

@@ -1,0 +1,126 @@
+/*About-me styles*/
+
+@keyframes graphic-color {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+}
+
+li {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+}
+
+h4 {
+  padding-bottom: 13px;
+}
+
+.code {
+  top: 1450px;
+  position: absolute;
+  left: 52%;
+  width: 25%;
+}
+
+.desing {
+  left: 23%;
+  position: absolute;
+  top: 1450px;
+  text-align: right;
+  width: 25%;
+}
+
+.graphic-background {
+  background: #888;
+  border-radius: 25px;
+  display: inline-block;
+  height: 15px;
+  position: relative;
+  width: 250px;
+  &:before {
+    content: "+";
+    left: -10px;
+    position: absolute;
+  }
+  &:after {
+    content: "-";
+    position: absolute;
+    right: -10px;
+  }
+}
+
+.graphic-color {
+  background: #000;
+  border-radius: 25px;
+  display: inline-block;
+
+  height: 100%;
+  &.graphic-color {
+    animation: graphic-color 5s ease forwards;
+  }
+}
+
+.graphic-left {
+  display: block;
+  grid-area: 1 / 1;
+  width: 100%;
+}
+
+.graphic-right {
+  display: block;
+  grid-area: 1 / 2;
+  width: 100%;
+}
+
+.right {
+  float: right;
+}
+
+.skill-left {
+  display: block;
+  grid-area: 1 / 1;
+  width: 100%;
+}
+
+.skill-right {
+  display: block;
+  grid-area: 1 / 2;
+  width: 100%;
+}
+
+.title-about-me {
+  @media (max-width: 320px) {
+  }
+  font-size: 8vw;
+  color: #666;
+  margin: 0;
+
+  span:nth-child(1) {
+    left: 5%;
+    position: relative;
+    top: -46vh;
+  }
+  span:nth-child(2) {
+    @media (max-width: 995px) {
+      left: 8vw;
+    }
+    left: 35vw;
+    position: relative;
+    top: -46vh;
+  }
+}
+
+.photo-profile {
+  background-image: url("../img/profile.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 350px;
+  margin: 0 auto;
+  position: relative;
+  top: -150px;
+  width: 350px;
+}

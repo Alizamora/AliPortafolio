@@ -1,0 +1,31 @@
+/*Hobbies Styles*/
+
+.hobbies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20% 1fr;
+  background-blend-mode: soft-light;
+  background-color: rgba(255, 255, 255, 0.616);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  position: relative;
+  height: 640px;
+}
+
+.hobbie__img {
+  background-image: url(../img/svg/photo.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: mostrar 45s infinite;
+  -webkit-animation: mostrar 45s infinite;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.hobbies-title{
+  grid-column: 1/3;
+  grid-row: 1;
+  text-align: center;
+}
