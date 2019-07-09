@@ -2,28 +2,20 @@
 /*Animaciones*/
 @keyframes mostrar {
   0% {
-    background-image: url(../img/svg/photo.svg);
-  }
+    background-image: url(../img/svg/photo.svg); }
   20% {
-    background-image: url(../img/svg/futbol.svg);
-  }
+    background-image: url(../img/svg/futbol.svg); }
   40% {
-    background-image: url(../img/svg/viajar.svg);
-  }
+    background-image: url(../img/svg/viajar.svg); }
   60% {
-    background-image: url(../img/svg/work.svg);
-  }
+    background-image: url(../img/svg/work.svg); }
   80% {
-    background-image: url(../img/svg/work1.svg);
-  }
+    background-image: url(../img/svg/work1.svg); }
   100% {
-    background-image: url(../img/svg/photo.svg);
-  }
-}
+    background-image: url(../img/svg/photo.svg); } }
 @font-face {
-  font-family: "roboto";
-  src: url(../fonts/Roboto-Regular.ttf);
-}
+  font-family: 'roboto';
+  src: url(../fonts/Roboto-Regular.ttf); }
 h1 {
   color: white;
   font-size: 3vw;
@@ -31,121 +23,98 @@ h1 {
   margin: 0;
   position: relative;
   text-align: center;
-  top: 300px;
-}
-@media (max-width: 320px) {
-  h1 {
-    font-size: 5vw;
-  }
-}
+  top: 300px; }
+  @media (max-width: 320px) {
+    h1 {
+      font-size: 5vw; } }
 
 .header-content-btn {
   display: inline-block;
   position: relative;
   text-align: center;
   top: 450px;
-  width: 100%;
-}
+  width: 100%; }
 
 .menu-btn {
-  background-color: rgba(153, 153, 153, 0);
-  border: 2px solid rgba(102, 102, 102, 0);
-  color: #666;
+  border: 2px solid #666666;
+  color: white;
   font-family: "roboto";
   font-size: 30px;
   padding: 20px 40px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  transition: 1s;
-}
-.menu-btn:hover {
-  border: 2px solid #666666;
-  color: white;
-  cursor: pointer;
-}
+  transition: 1s; }
+  .menu-btn:hover {
+    background-color: rgba(153, 153, 153, 0);
+    border: 2px solid rgba(102, 102, 102, 0);
+    color: #666;
+    cursor: pointer; }
 
 #modal {
   font-size: 16px;
-  grid-column: 3/5;
-}
+  grid-column: 3/5; }
 
 body {
-  font-family: "roboto";
+  font-family: 'roboto';
   letter-spacing: 15px;
   margin: 0 auto;
-  text-transform: uppercase;
-}
-@media (max-width: 320px) {
-  body {
-    letter-spacing: 5px;
-  }
-}
+  text-transform: uppercase; }
+  @media (max-width: 320px) {
+    body {
+      letter-spacing: 5px; } }
 
 li {
-  list-style: none;
-}
+  list-style: none; }
 
 ul {
-  padding: 0;
-}
+  padding: 0; }
 
 header {
-  background-color: #999;
-}
+  background-color: #999; }
 
 .about-me-background {
   background-color: #999;
   padding-bottom: 200px;
-  width: 100%;
-}
+  width: 100%; }
 
 .header-img {
   background-image: url(../img/my-face.png);
   background-position: right;
   background-repeat: no-repeat;
   background-size: 45%;
-  padding-bottom: 900px;
-}
-@media (max-width: 1080px) {
-  .header-img {
-    background-position: top;
-    background-size: 100%;
-  }
-}
+  padding-bottom: 900px; }
+  @media (max-width: 1080px) {
+    .header-img {
+      background-position: top;
+      background-size: 100%; } }
 
 /*About-me styles*/
 @keyframes graphic-color {
   from {
     opacity: 0;
-    width: 0;
-  }
-}
+    width: 0; } }
 li {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
   letter-spacing: 5px;
-  padding-bottom: 10px;
-}
+  padding-bottom: 10px; }
 
 h4 {
-  padding-bottom: 13px;
-}
+  padding-bottom: 13px; }
 
 .code {
   top: 1450px;
   position: absolute;
   left: 52%;
-  width: 25%;
-}
+  width: 25%; }
 
 .desing {
   left: 23%;
   position: absolute;
   top: 1450px;
   text-align: right;
-  width: 25%;
-}
+  width: 25%; }
 
 .graphic-background {
   background: #888;
@@ -153,77 +122,62 @@ h4 {
   display: inline-block;
   height: 15px;
   position: relative;
-  width: 250px;
-}
-.graphic-background:before {
-  content: "+";
-  left: -10px;
-  position: absolute;
-}
-.graphic-background:after {
-  content: "-";
-  position: absolute;
-  right: -10px;
-}
+  width: 250px; }
+  .graphic-background:before {
+    content: "+";
+    left: -10px;
+    position: absolute; }
+  .graphic-background:after {
+    content: "-";
+    position: absolute;
+    right: -10px; }
 
 .graphic-color {
   background: #000;
   border-radius: 25px;
   display: inline-block;
-  height: 100%;
-}
-.graphic-color.graphic-color {
-  animation: graphic-color 5s ease forwards;
-}
+  height: 100%; }
+  .graphic-color.graphic-color {
+    animation: graphic-color 5s ease forwards; }
 
 .graphic-left {
   display: block;
-  grid-area: 1/1;
-  width: 100%;
-}
+  grid-area: 1 / 1;
+  width: 100%; }
 
 .graphic-right {
   display: block;
-  grid-area: 1/2;
-  width: 100%;
-}
+  grid-area: 1 / 2;
+  width: 100%; }
 
 .right {
-  float: right;
-}
+  float: right; }
 
 .skill-left {
   display: block;
-  grid-area: 1/1;
-  width: 100%;
-}
+  grid-area: 1 / 1;
+  width: 100%; }
 
 .skill-right {
   display: block;
-  grid-area: 1/2;
-  width: 100%;
-}
+  grid-area: 1 / 2;
+  width: 100%; }
 
 .title-about-me {
   font-size: 8vw;
   color: #666;
-  margin: 0;
-}
-.title-about-me span:nth-child(1) {
-  left: 5%;
-  position: relative;
-  top: -46vh;
-}
-.title-about-me span:nth-child(2) {
-  left: 35vw;
-  position: relative;
-  top: -46vh;
-}
-@media (max-width: 995px) {
+  margin: 0; }
+  .title-about-me span:nth-child(1) {
+    left: 5%;
+    position: relative;
+    top: -46vh; }
   .title-about-me span:nth-child(2) {
-    left: 8vw;
-  }
-}
+    left: 35vw;
+    position: relative;
+    top: -46vh; }
+    @media (max-width: 995px) {
+      .title-about-me span:nth-child(2) {
+        left: 8vw; } }
 
 .photo-profile {
   background-image: url("../img/profile.jpg");
@@ -234,8 +188,7 @@ h4 {
   margin: 0 auto;
   position: relative;
   top: -150px;
-  width: 350px;
-}
+  width: 350px; }
 
 /*Hobbies Styles*/
 .hobbies {
@@ -250,8 +203,7 @@ h4 {
   margin: 0 auto;
   margin-bottom: 200px;
   margin-top: 160px;
-  position: relative;
-}
+  position: relative; }
 
 .hobbies__img {
   animation: mostrar 45s infinite;
@@ -259,78 +211,64 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
   grid-column: 1;
-  grid-row: 2;
-}
+  grid-row: 2; }
 
 .hobbies-title {
   grid-column: 1/3;
   grid-row: 1;
-  text-align: center;
-}
+  text-align: center; }
 
 .hobbies-list {
   padding-top: 190px;
-  padding-left: 200px;
-}
+  padding-left: 200px; }
 
 .portfolio {
   display: grid;
   grid-template-columns: 10% 1fr 1fr 1fr 1fr 10%;
   grid-auto-rows: 8% 30% 40% 8% 1fr;
-  padding-bottom: 300px;
-}
+  padding-bottom: 300px; }
 
 .portfolio-title {
   grid-column: 1/7;
-  text-align: center;
-}
+  text-align: center; }
 
 .projects-list {
-  grid-column: 2/3;
-}
+  grid-column: 2/3; }
 
 .projects-info {
   background-color: #ccc;
   border-radius: 10px;
   grid-column: 2/6;
   height: 200px;
-  margin: 20px;
-}
+  margin: 20px; }
 
 .projects {
   justify-items: left;
-  width: 70%;
-}
-.projects button {
-  background-color: #ccc;
-  border: #ccc 1px solid;
-  border-radius: 10px;
-}
+  width: 70%; }
+  .projects button {
+    background-color: #ccc;
+    border: #ccc 1px solid;
+    border-radius: 10px; }
 
 .github-title {
   grid-column: 2/6;
   grid-row: 4;
-  justify-self: center;
-}
+  justify-self: center; }
 
 /*Footer Styles*/
 #contact {
   background-color: black;
-  text-align: center;
-}
+  text-align: center; }
 
 #contact h2 {
   color: white;
-  padding: 50px;
-}
+  padding: 50px; }
 #contact p {
   color: white;
   margin: 0;
-  padding: 50px;
-}
+  padding: 50px; }
 
 .social {
-  color: white;
-}
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */
