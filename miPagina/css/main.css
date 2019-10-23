@@ -215,14 +215,14 @@ h4 {
   margin: 0;
 }
 .title-about-me span:nth-child(1) {
-  left: 6%;
-  position: relative;
-  top: -89vh;
+  left: 4vw;
+  position: absolute;
+  top: 180vh;
 }
 .title-about-me span:nth-child(2) {
-  left: 33vw;
-  position: relative;
-  top: -89vh;
+  left: 74vw;
+  position: absolute;
+  top: 180vh;
 }
 
 @media (max-width: 995px) {
