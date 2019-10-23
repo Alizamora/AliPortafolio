@@ -216,13 +216,13 @@ h4 {
 }
 .title-about-me span:nth-child(1) {
   left: 4vw;
-  position: absolute;
-  top: 25vh;
+  position: relative;
+  top: -81vh;
 }
 .title-about-me span:nth-child(2) {
-  left: 74vw;
-  position: absolute;
-  top: 25vh;
+  left: 35vw;
+  position: relative;
+  top: -81vh;
 }
 
 @media (max-width: 995px) {
