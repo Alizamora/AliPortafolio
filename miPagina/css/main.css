@@ -215,14 +215,14 @@ h4 {
   margin: 0;
 }
 .title-about-me span:nth-child(1) {
-  left: 35vw;
+  left: 6vw;
   position: absolute;
-  top: 15vh;
+  top: 25vh;
 }
 .title-about-me span:nth-child(2) {
   left: 65vw;
   position: absolute;
-  top: 15vh;
+  top: 25vh;
 }
 
 @media (max-width: 995px) {
