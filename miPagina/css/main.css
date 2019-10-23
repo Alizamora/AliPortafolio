@@ -94,6 +94,11 @@ header {
   background-color: #999;
 }
 
+.about-me {
+  position: relative;
+  margin-bottom: 25%;
+}
+
 .about-me-background {
   background-color: #999;
   padding-bottom: 200px;
@@ -133,7 +138,7 @@ h4 {
 }
 
 .code {
-  top: 1450px;
+  top: 90%;
   position: absolute;
   left: 52%;
   width: 40%;
@@ -142,7 +147,7 @@ h4 {
 .desing {
   left: 8%;
   position: absolute;
-  top: 1450px;
+  top: 90%;
   text-align: right;
   width: 40%;
 }
@@ -210,15 +215,16 @@ h4 {
   margin: 0;
 }
 .title-about-me span:nth-child(1) {
-  left: 5%;
+  left: 6%;
   position: relative;
-  top: -46vh;
+  top: -89vh;
 }
 .title-about-me span:nth-child(2) {
-  left: 35vw;
+  left: 33vw;
   position: relative;
-  top: -46vh;
+  top: -89vh;
 }
+
 @media (max-width: 995px) {
   .title-about-me span:nth-child(2) {
     left: 8vw;
@@ -285,7 +291,7 @@ h4 {
   grid-column: 2/3;
 }
 
-.projects-develop{
+.projects-develop {
   background-color: #eaeaea;
 }
 .projects-design {
@@ -330,25 +336,22 @@ h4 {
 
 /*Portfolio*/
 
-
 .projects-design,
-.projects-develop{
+.projects-develop {
   padding: 5%;
 }
 
-.project-title{
-
+.project-title {
 }
 
-.project-container{
-
+.project-container {
 }
 
-.p-title{
+.p-title {
   text-align: center;
 }
 
-.p-paragraph{
+.p-paragraph {
   text-align: center;
   letter-spacing: 1px;
   width: 60%;
@@ -357,10 +360,8 @@ h4 {
   padding-bottom: 50px;
 }
 
-.video{
+.video {
   width: 100%;
 }
-
-
 
 /*# sourceMappingURL=main.css.map */
