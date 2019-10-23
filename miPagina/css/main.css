@@ -138,7 +138,7 @@ h4 {
 }
 
 .code {
-  top: 75%;
+  top: 79%;
   position: absolute;
   left: 52%;
   width: 40%;
@@ -215,14 +215,14 @@ h4 {
   margin: 0;
 }
 .title-about-me span:nth-child(1) {
-  left: 4vw;
-  position: relative;
-  top: -81vh;
+  left: 65vw;
+  position: absolute;
+  top: 15vh;
 }
 .title-about-me span:nth-child(2) {
   left: 35vw;
-  position: relative;
-  top: -81vh;
+  position: absolute;
+  top: 15vh;
 }
 
 @media (max-width: 995px) {
