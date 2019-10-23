@@ -96,7 +96,7 @@ header {
 
 .about-me {
   position: relative;
-  margin-bottom: 15%;
+  margin-bottom: 25%;
 }
 
 .about-me-background {
@@ -138,7 +138,7 @@ h4 {
 }
 
 .code {
-  top: 79%;
+  top: 100%;
   position: absolute;
   left: 52%;
   width: 40%;
@@ -146,7 +146,7 @@ h4 {
 
 .desing {
   left: 8%;
-  position: relative;
+  position: absolute;
   top: 100%;
   text-align: right;
   width: 40%;
@@ -215,12 +215,12 @@ h4 {
   margin: 0;
 }
 .title-about-me span:nth-child(1) {
-  left: 65vw;
+  left: 35vw;
   position: absolute;
   top: 15vh;
 }
 .title-about-me span:nth-child(2) {
-  left: 35vw;
+  left: 65vw;
   position: absolute;
   top: 15vh;
 }
